@@ -1,0 +1,16 @@
+1. primitive data types:
+  1) int: between -2^31 and 2^31-1 (32 bits)
+    a)short int : 16 bits
+    b)long int : 64 bits
+    c)byte : 8 bits
+  2) double : 64 bits
+    a)BigDecimal
+    b)float : 32 bits
+  3) boolean : 
+  4) char : 16 bits
+    a) strings
+  
+2.arrays
+  1) double[] a = new double[N]; // for numbers, default is 0; for boolean, default is false.
+    a)int[] a = {1,2,2,4,5};
+  2) aliasing : need to copy all the entries to new array, otherwise all the copies are pointing to the same array.
