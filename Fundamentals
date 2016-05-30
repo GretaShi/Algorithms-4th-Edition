@@ -1,5 +1,5 @@
-1. primitive data types:
-  1) int: between -2^31 and 2^31-1 (32 bits)
+1.primitive data types:
+  1) int: between -2^31 and 2^31-1 (32 bits) 
     a)short int : 16 bits
     b)long int : 64 bits
     c)byte : 8 bits
@@ -9,8 +9,20 @@
   3) boolean : 
   4) char : 16 bits
     a) strings
-  
+    
+PS:
+1.Math.abs(-2147483648) -> -2147483648 becasue of overflow
+2.1/0 -> runtime exception ; 1.0/0.0 - > Infinity
+
+
 2.arrays
   1) double[] a = new double[N]; // for numbers, default is 0; for boolean, default is false.
     a)int[] a = {1,2,2,4,5};
-  2) aliasing : need to copy all the entries to new array, otherwise all the copies are pointing to the same array.
+  2) aliasing : need to copy all the entries to new array, otherwise all the copies are pointing to the same array. (same for objects)
+  
+3.print format
+  1)d (decimal) f(floating) s(String)
+  
+4.Objects as arguments.
+  The convention is to pass the reference by value (make a copy of it) but to pass the object by reference. For example, if we pass a reference to an object of type Counter, the method cannot change the original reference (make it point to a different Counter), but it can change the value of the object, for example by using the reference to call increment().
+5.
