@@ -11,9 +11,8 @@
     a) strings
     
 PS:
-1.Math.abs(-2147483648) -> -2147483648 becasue of overflow
-2.1/0 -> runtime exception ; 1.0/0.0 - > Infinity
-
+  1.Math.abs(-2147483648) -> -2147483648 becasue of overflow
+  2.1/0 -> runtime exception ; 1.0/0.0 - > Infinity
 
 2.arrays
   1) double[] a = new double[N]; // for numbers, default is 0; for boolean, default is false.
@@ -25,4 +24,64 @@ PS:
   
 4.Objects as arguments.
   The convention is to pass the reference by value (make a copy of it) but to pass the object by reference. For example, if we pass a reference to an object of type Counter, the method cannot change the original reference (make it point to a different Counter), but it can change the value of the object, for example by using the reference to call increment().
-5.
+
+5.mutable / immutable (all that need new for definition are mutable)
+  1) String is immutable while StringBuilder is mutable; array is mutable while Vector is immutable
+  2）final guarantees immutability only when instance variables are primitive types, not reference types.
+  
+6.
+Exceptions, which generally handle unforeseen errors outside our control
+Assertions, which verify assumptions that we make within code we develop(default disable, -enableassertions)
+
+7.
+autoboxing:
+wrapper types:  Boolean, Byte, Character, Double, Float, Integer, Long, and Short
+primitive types:boolean, byte, char, double, float, int, long, and short
+
+8. bag : The order of iteration is unspecified and should be immaterial to the client.
+      public class Bag<Item> implements Iterable<Item>
+      Bag() create an empty bag
+      void add(Item item) add an item
+      boolean isEmpty() is the bag empty?
+      int size() number of items in the bag
+9. queue(FIFO) : first in first out
+      public class Queue<Item> implements Iterable<Item>
+      Queue() create an empty queue
+      void enqueue(Item item) add an item
+      Item dequeue() remove the least recently added item
+      boolean isEmpty() is the queue empty?
+      int size() number of items in the queue
+10. stack(LIFO) : pushdown, to reverse the order
+      public class Stack<Item> implements Iterable<Item>
+      Stack() create an empty stack
+      void push(Item item) add an item
+      Item pop() remove the most recently added item
+      boolean isEmpty() is the stack empty?
+      int size() number of items in the stack
+11. Iteration
+import java.util.Iterator;
+implements Iterable<Item>;
+public Iterator<Item> iterator();
+{ return new ListIterator();  }
+
+12. the running time is relatively insensitive to the input itself; it depends primarily on the problem size.
+the total running time of a program is determined by two primary factors:
+■ The cost of executing each statement
+■ The frequency of execution of each statement
+We seek precise mathematical results about algorithms (propositions) and also hypotheses about performance of implementations (properties) that you can check through experimentation.
+
+13.
+description           notation      definition
+floor                   ⎣x⎦         largest integer not greater than x
+ceiling                 ⎡x⎤         smallest integer not smaller than x
+natural logarithm       ln N        log e N (x such that e x = N)
+binary logarithm        lg N        log 2 N (x such that 2x = N)
+integer
+binary logarithm        ⎣lg N⎦      largest integer not greater than lg N (# bits in binary representation of N ) – 1
+harmonic numbers        HN          1  1/2  1/3  1/4  . . .  1/N
+factorial               N !         1  2  3  4  . . .  N
+
+
+question:
+1. interface inheritance (P100)
+2. mutable passes the referance and immutable offer a copy
