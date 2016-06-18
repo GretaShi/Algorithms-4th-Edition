@@ -74,12 +74,27 @@ We seek precise mathematical results about algorithms (propositions) and also hy
 description           notation      definition
 floor                   ⎣x⎦         largest integer not greater than x
 ceiling                 ⎡x⎤         smallest integer not smaller than x
-natural logarithm       ln N        log e N (x such that e x = N)
-binary logarithm        lg N        log 2 N (x such that 2x = N)
+natural logarithm       ln N        log e^N (x such that e x = N)
+binary logarithm        lg N        log 2^N (x such that 2x = N)
 integer
 binary logarithm        ⎣lg N⎦      largest integer not greater than lg N (# bits in binary representation of N ) – 1
-harmonic numbers        HN          1  1/2  1/3  1/4  . . .  1/N
-factorial               N !         1  2  3  4  . . .  N
+harmonic numbers        H^N          1  1/2  1/3  1/4  . . .  1/N
+factorial               N!           1  2  3  4  . . .  N
+
+
+14.
+constant          1
+logarithmic     log N
+linear            N
+linearithmic    N log N
+quadratic         N^2
+cubic             N^3
+exponential       2^N
+
+
+
+
+
 
 
 question:
