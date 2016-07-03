@@ -10,3 +10,4 @@ heapsort								no					yes							NlogN								1
 
 2.in most practical situations, quicksort is the method of choice.
 3.if stability is important and space is available, mergesort might be best.
+
