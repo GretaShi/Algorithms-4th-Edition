@@ -1,0 +1,9 @@
+algorithm							stable?			in place?		order of growth of sort N items						notes
+																								running time				extra space
+selection sort					no					yes							N^2									1							
+insertion sort					yes					yes				  	N ~ N^2								1							depends on order of items
+shell sort							no					yes					NlogN? N^(6/5)?					1	
+quicksort								no					yes							NlogN							lgN							probabilistic guarantee
+3-way quicksort					no					yes						N ~ NlogN						lgN							probabilistic,also depends on distribution of input keys
+mergesort								yes					no							NlogN								N
+heapsort								no					yes							NlogN								1
