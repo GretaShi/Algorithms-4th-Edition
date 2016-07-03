@@ -10,4 +10,12 @@ heapsort								no					yes							NlogN								1
 
 2.in most practical situations, quicksort is the method of choice.
 3.if stability is important and space is available, mergesort might be best.
+4.In some performance-critical applications, the focus may be on sorting numbers, so it is reasonable to avoid the costs of using references and sort primitive types instead.
+5.Java’s systems programmers have chosen to use quicksort (with 3-way partitioning) to implement the primitive-type methods, and mergesort for reference-type methods.The primary practical implications of these choices are, as just discussed, to trade speed and memory usage (for primitive types) for stability (for reference types).
+
+
+
+
+
+
 
