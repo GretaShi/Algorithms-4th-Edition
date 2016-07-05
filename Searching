@@ -1,0 +1,3 @@
+We use equals() (for symbol tables where keys are not Comparable) or compareTo() (for ordered symbol tables with Comparable keys).
+
+binary search : iterative and recuisive way?
