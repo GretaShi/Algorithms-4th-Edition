@@ -9,3 +9,10 @@ Rankings : number of keys less than x
 
 
 
+Hash Table:
+1) hash function: the easiest way to ensure uniformity is to make sure that all the bits of the key play an equal role in computing every hash value
+
+
+
+
+
