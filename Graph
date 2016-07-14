@@ -1,0 +1,18 @@
+Definitions:
+1. A graph is a set of vertices and a collection of edges that each connect a pair of vertices.
+2. a self-loop is an edge that connects a vertex to itself.
+3. two edges that connect the same pair of vertices are parallel(multigraphs)
+4. When there is an edge connecting two vertices, we say that the vertices are a djacent to one another and that the edge is incident to both vertices.
+5. The degree of a vertex is the number of edges incident to it.
+6. A path in a graph is a sequence of vertices connected by edges.
+7. A simple path is one with no repeated vertices.
+8. A cycle is a path with at least one edge whose first and last vertices are the same.
+9. A simple cycle is a cycle with no repeated edges or vertices (except the requisite repetition of the first and last vertices).
+10. The length of a path or a cycle is its number of edges.
+
+
+
+
+
+
+
