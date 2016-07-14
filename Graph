@@ -9,8 +9,8 @@ Definitions:
 8. A cycle is a path with at least one edge whose first and last vertices are the same.
 9. A simple cycle is a cycle with no repeated edges or vertices (except the requisite repetition of the first and last vertices).
 10. The length of a path or a cycle is its number of edges.
-
-
+11. A graph is connected if there is a path from every vertex to every other vertex in the graph.
+12. A graph that is not connected consists of a set of connected components, which are maximal connected subgraphs.
 
 
 
