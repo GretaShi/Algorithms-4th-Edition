@@ -1,0 +1,8 @@
+1. 7-bit ASCII or 8-bit extended ASCII, but many modern applications call for 16-bit Unicode
+2. String objects are immutable
+3. 
+
+
+
+
+
